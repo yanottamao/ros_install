@@ -3,12 +3,12 @@ ROS Indigo Ubuntu 14.04 Installation Step
 
 1. ros base 
 
-#install ros, gazebo
-$ sudo apt-get update
-$ sudo apt-get upgrade
+install ros, gazebo
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
 
-#add source ros 
-$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+add source ros 
+    $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
 
 #add key 
 $ wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
