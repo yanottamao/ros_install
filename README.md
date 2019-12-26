@@ -116,6 +116,11 @@ $ git clone https://github.com/AutonomyLab/ardrone_autonomy.git -b indigo-devel
 $ git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b indigo-devel
 ```
 
+#### 1.7 TUM Ardrone for ArDrone GUI Control
+```bash
+$ git clone https://github.com/tum-vision/tum_ardrone -b indigo-devel
+```
+
 ### 2. Install Dependencies
 ```bash
 $ sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control
@@ -167,6 +172,12 @@ $ sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty li
 #### 2.2 Ubuntu 14.04 Only
 ```bash
 sudo apt-get install libgl1-mesa-dev-lts-trusty
+```
+
+### 3. Gazebo Models
+Download models from [Repository](bitbucket.org/osrf/gazebo_models/downloads/) then extract to:
+```bash
+/home/.gazebo/models/
 ```
 
 ## Other ROS Version
