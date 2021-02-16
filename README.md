@@ -45,26 +45,29 @@ sudo apt-get install ros-indigo-desktop-full
 #### 2.1 Initial ROSDEP Setup
 
 ```bash
-$ sudo rosdep init
+sudo rosdep init
 ```
 
 #### 2.2 Update ROSDEP
 
 ```bash
-$ rosdep update
+rosdep update
 ```
 
 #### 2.3 Source BASH
 
 ```bash
-$ echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
-$ source ~/.bashrc
+echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+```
+
+```bash
+source ~/.bashrc
 ```
 
 #### Install python-rosinstall
 
 ```bash
-$ sudo apt-get install python-rosinstall
+sudo apt-get install python-rosinstall
 ```
 
 ### 3. Setup CATKIN Workspace
@@ -72,26 +75,29 @@ $ sudo apt-get install python-rosinstall
 #### 3.1 Create CATKIN Workspace & Source Folder
 
 ```bash
-$ mkdir -p ~/catkin_ws/src
+mkdir -p ~/catkin_ws/src
 ```
 
 #### 3.2 Enter CATKIN Source Folder
 
 ```bash
-$ cd ~/catkin_ws/src
+cd ~/catkin_ws/src
 ```
 
 #### 3.3 Initilize CATKIN Workspace
 
 ```bash
-$ catkin_init_workspace
+catkin_init_workspace
 ```
 
 #### 3.4 Initial Build CATKIN Workspace
 
 ```bash
-$ cd ~/catkin_ws
-$ catkin_make
+cd ~/catkin_ws
+```
+
+```bash
+catkin_make
 ```
 
 #### 3.5 Source BASH
