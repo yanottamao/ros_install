@@ -103,8 +103,11 @@ catkin_make
 #### 3.5 Source BASH
 
 ```bash
-$ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-$ source ~/.bashrc
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+```
+
+```bash
+source ~/.bashrc
 ```
 
 ## AR.Drone
@@ -114,43 +117,43 @@ $ source ~/.bashrc
 #### 1.1 Enter CATKIN Source Folder
 
 ```bash
-$ cd ~/catkin_ws/src
+cd ~/catkin_ws/src
 ```
 
 #### 1.2 Clone ROS Indigo Compatible Joystick Interface
 
 ```bash
-$ git clone https://github.com/occominc/ardrone_joystick.git
+git clone https://github.com/occominc/ardrone_joystick.git
 ```
 
 #### 1.3 ROS Indigo Compatible Launch Scripts
 
 ```bash
-$ git clone https://github.com/occominc/autonavx_ardrone.git
+git clone https://github.com/occominc/autonavx_ardrone.git
 ```
 
 #### 1.4 ROS Indigo Compatible tum_simulator
 
 ```bash
-$ git clone https://github.com/occominc/tum_simulator.git
+git clone https://github.com/occominc/tum_simulator.git
 ```
 
 #### 1.5 ROS Driver for Parrot [AR-Drone](http://wiki.ros.org/ardrone_autonomy) 1.0 and 2.0 quadrocopters
 
 ```bash
-$ git clone https://github.com/AutonomyLab/ardrone_autonomy.git -b indigo-devel
+git clone https://github.com/AutonomyLab/ardrone_autonomy.git -b indigo-devel
 ```
 
 #### 1.6 Wrappers, Tools and Additional [API's](http://wiki.ros.org/gazebo_ros_pkgs) for using ROS with Gazebo
 
 ```bash
-$ git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b indigo-devel
+git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git -b indigo-devel
 ```
 
 #### 1.7 TUM Ardrone for ArDrone GUI Control
 
 ```bash
-$ git clone https://github.com/tum-vision/tum_ardrone -b indigo-devel
+git clone https://github.com/tum-vision/tum_ardrone -b indigo-devel
 ```
 
 ### 2. Install Dependencies
