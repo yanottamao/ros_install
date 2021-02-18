@@ -159,32 +159,35 @@ git clone https://github.com/tum-vision/tum_ardrone -b indigo-devel
 ### 2. Install Dependencies
 
 ```bash
-$ sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control
+sudo apt-get install ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control
 ```
 
 #### 2.1 Update ROSDEP
 
 ```bash
-$ rosdep update
+rosdep update
 ```
 
 #### 2.2 Check Dependencies of ROS Packages
 
 ```bash
-$ rosdep check --from-paths . --ignore-src --rosdistro indigo
+rosdep check --from-paths . --ignore-src --rosdistro indigo
 ```
 
 #### 2.3 Install Dependencies of ROS Packages
 
 ```bash
-$ rosdep install --from-paths . --ignore-src --rosdistro indigo -y
+rosdep install --from-paths . --ignore-src --rosdistro indigo -y
 ```
 
 #### 2.4 Build CATKIN Packages
 
 ```bash
-$ cd ~/catkin_ws
-$ catkin_make
+cd ~/catkin_ws
+```
+
+```bash
+catkin_make
 ```
 
 ## Troubleshooting
@@ -194,13 +197,13 @@ $ catkin_make
 #### 1.1 Delete Old Keys
 
 ```bash
-$ sudo apt-key del B01FA116
+sudo apt-key del B01FA116
 ```
 
 #### 1.2 Add New Keys
 
 ```bash
-$ sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
 ### 2. ROS Dependency Issues
@@ -210,7 +213,7 @@ Issues [ROS Thread](https://answers.ros.org/question/203610/ubuntu-14042-unmet-d
 #### 2.1 Ubuntu 14.04.2 Only
 
 ```bash
-$ sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty libxatracker-dev-lts-trusty libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
+sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty libxatracker-dev-lts-trusty libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
 ```
 
 #### 2.2 Ubuntu 14.04 Only
@@ -234,7 +237,7 @@ Download models from [Repository](bitbucket.org/osrf/gazebo_models/downloads/) t
 Packages: [ROS](http://wiki.ros.org/ros), [RQT](http://wiki.ros.org/rqt), [RVIZ](http://wiki.ros.org/rviz), Gazebo 2, Robot-generic Libraries, 2D/3D Simulators, and 2D/3D Perception.
 
 ```bash
-$ sudo apt-get install ros-indigo-desktop-full
+sudo apt-get install ros-indigo-desktop-full
 ```
 
 ### 2. Desktop Install
@@ -242,7 +245,7 @@ $ sudo apt-get install ros-indigo-desktop-full
 Packages: [ROS](http://wiki.ros.org/ros), [RQT](http://wiki.ros.org/rqt), [RVIZ](http://wiki.ros.org/rviz), Robot-generic Libraries.
 
 ```bash
-$ sudo apt-get install ros-indigo-desktop
+sudo apt-get install ros-indigo-desktop
 ```
 
 ### 3. ROS-Base / Bare Bones
@@ -250,7 +253,7 @@ $ sudo apt-get install ros-indigo-desktop
 Packages: [ROS](http://wiki.ros.org/ros), Build, and Communication Libraries. No GUI Tools.
 
 ```bash
-$ sudo apt-get install ros-indigo-ros-base
+sudo apt-get install ros-indigo-ros-base
 ```
 
 ### 4. Individual ROS Package
@@ -258,7 +261,7 @@ $ sudo apt-get install ros-indigo-ros-base
 Packages: [ROS](http://wiki.ros.org/ros), Specific ROS Package.
 
 ```bash
-$ sudo apt-get install ros-indigo-PACKAGE_NAME
+sudo apt-get install ros-indigo-PACKAGE_NAME
 ```
 
 To Find Available Packages
