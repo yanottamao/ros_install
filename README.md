@@ -190,6 +190,10 @@ cd ~/catkin_ws
 catkin_make
 ```
 
+#### 2.5 Test Installation
+
+Test simulation [Simulation](https://github.com/yanottamao/ardrone_gazebo_simulation)
+
 ## Troubleshooting
 
 ### 1. Update Couldn't Complete
