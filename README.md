@@ -192,7 +192,7 @@ catkin_make
 
 #### 2.5 Test Installation
 
-Test simulation [Simulation](https://github.com/yanottamao/ardrone_gazebo_simulation)
+Test simulation [Simulation](https://github.com/yanottamao/ardrone_gazebo_simulation) [Real](https://github.com/yanottamao/SKRIPSI)
 
 ## Troubleshooting
 
