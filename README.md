@@ -210,6 +210,12 @@ sudo apt-key del B01FA116
 sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
+Or
+
+```bash
+curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
+```
+
 ### 2. ROS Dependency Issues
 
 Issues [ROS Thread](https://answers.ros.org/question/203610/ubuntu-14042-unmet-dependencies-similar-for-14043/), [Launchpad](https://bugs.launchpad.net/ubuntu/trusty/+source/mesa/+bug/1424059)
