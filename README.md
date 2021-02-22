@@ -240,6 +240,16 @@ Download models from [Repository](bitbucket.org/osrf/gazebo_models/downloads/) t
 /home/.gazebo/models/
 ```
 
+### 4. ZSH Environment
+
+```bash
+echo "source /opt/ros/indigo/setup.zsh" >> ~/.zshrc
+```
+
+```bash
+source ~/.zshrc
+```
+
 ## Other ROS Version
 
 ### 1. Desktop Full Install
