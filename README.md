@@ -110,6 +110,8 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+ZSH Environment see Troubleshooting section below
+
 ## AR.Drone
 
 ### 1. Clone Library & Install Library
