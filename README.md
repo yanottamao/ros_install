@@ -211,13 +211,15 @@ sudo apt-key del B01FA116
 #### 1.2 Add New Keys
 
 ```bash
-sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80'
+--recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
 Or
 
 ```bash
-curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
+curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654'
+| sudo apt-key add -
 ```
 
 ### 2. ROS Dependency Issues
@@ -227,7 +229,10 @@ Issues [ROS Thread](https://answers.ros.org/question/203610/ubuntu-14042-unmet-d
 #### 2.1 Ubuntu 14.04.2 Only
 
 ```bash
-sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty libxatracker-dev-lts-trusty libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
+sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty libxatracker-dev-lts-trusty
+ libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty
+ libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty
+ libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
 ```
 
 #### 2.2 Ubuntu 14.04 Only
