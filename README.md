@@ -230,9 +230,8 @@ Issues [ROS Thread](https://answers.ros.org/question/203610/ubuntu-14042-unmet-d
 
 ```bash
 sudo apt-get install xserver-xorg-dev-lts-trusty mesa-common-dev-lts-trusty libxatracker-dev-lts-trusty
- libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty
- libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty
- libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
+libopenvg1-mesa-dev-lts-trusty libgles2-mesa-dev-lts-trusty libgles1-mesa-dev-lts-trusty libgl1-mesa-dev-lts-trusty
+libgbm-dev-lts-trusty libegl1-mesa-dev-lts-trusty
 ```
 
 #### 2.2 Ubuntu 14.04 Only
